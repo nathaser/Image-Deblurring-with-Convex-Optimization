@@ -4,7 +4,7 @@ import pylops
 import scipy.sparse.linalg
 import time
 import os
-
+  
 def load_image_option_I(bz=0.1, bx=0.3):
     sampling = 5
     im = np.load("dog_rgb.npy")[::sampling, ::sampling, 2]
